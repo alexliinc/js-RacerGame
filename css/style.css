@@ -56,11 +56,20 @@ h1 {
     padding: 5px;
 }
 
+a{
+  text-decoration: none;
+  padding:10px;
+}
+
 ul li
 {
     display:inline-block;
     color: #f7f7f7;
     float: right;
+}
+
+.text{
+  color:white;
 }
 
 .navbar-default .navbar-brand{
@@ -118,7 +127,7 @@ p {
   width: 100px;
   float: left;
   position:relative;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 #player2{
