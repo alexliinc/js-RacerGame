@@ -14,12 +14,12 @@ var playerOneOffset = 0;
 var playerTwoOffset = 0;
 
 function movePlayer1(player) {
-  playerOneOffset += 25
+  playerOneOffset += 50
   player.style.left = playerOneOffset + "px";
 }
 
 function movePlayer2(player) {
-  playerTwoOffset += 25
+  playerTwoOffset += 50
   player.style.left = playerTwoOffset + "px";
 }
 // MOVING PLAYERS

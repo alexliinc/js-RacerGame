@@ -7,7 +7,6 @@ Developer @GA in DENVER */
 /* BASE STYLES
 /*******************************************/
 body {
-    text-align: center;
     margin: 0px;
 }
 
@@ -38,7 +37,65 @@ h1 {
     font-size: 45px
     margin: 0px;
 }
-/*END HEADER*/
+
+.center{
+  text-align: center;;
+}
+
+/*-----------------------------------------------------------------------------------------------------
+                                navbar
+-------------------------------------------------------------------------------------------------------*/
+
+.navbar-default{
+    border-radius: 0px;
+    border: 0;
+    background-color: #3399cc;
+}
+
+ul li
+{
+    display:inline-block;
+    color: #f7f7f7;
+    float: right;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+{
+    color: #fff;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+    padding: 0px 15px;
+    font-size: 49px;
+    line-height: 100%;
+    height: auto;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.nav-wrap
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+#wrapper
+{
+    background: url(../img/bn.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
 
 /*INSTRUCTIONS*/
 h2{
@@ -51,7 +108,7 @@ h2{
 p {
   font-family: "Droid Serif", serif;
 }
-/*END OF INSTRUCTIONS*/
+
 
 /*CREATE TWO PLAYERS && FINISH LINE*/
 #player1{
