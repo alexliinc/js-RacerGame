@@ -2,12 +2,14 @@
 Author: Alex Li
 Developer @GA in DENVER */
 
+// PLAYERS AND FINISH LINE
 var playerOne = document.getElementById("player1");
 var playerTwo = document.getElementById("player2");
 var finish = document.getElementById("finishLine");
 
 var finishPosition = finish.getBoundingClientRect();
 
+// MOVING PLAYERS
 var playerOneOffset = 0;
 var playerTwoOffset = 0;
 
@@ -20,8 +22,10 @@ function movePlayer2(player) {
   playerTwoOffset += 25
   player.style.left = playerTwoOffset + "px";
 }
+// MOVING PLAYERS
 
 
+// HAVING A WIN CONDITION
 document.onkeydown = checkKey;
 
 function checkKey(e) {
@@ -46,8 +50,4 @@ function checkKey(e) {
           alert("Player TWO is the winner");
         }
     }
-}
-
-function winner(cur,finish){
-
 }
