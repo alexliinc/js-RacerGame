@@ -122,16 +122,22 @@ p {
 
 /*CREATE TWO PLAYERS && FINISH LINE*/
 #player1{
-  background-color: yellow;
+  /*background-color: yellow;*/
   height: 100px;
   width: 100px;
   float: left;
   position:relative;
   margin-top: 50px;
+  background: url('http://piq.codeus.net/static/media/userpics/piq_428182_400x400.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #player2{
-  background-color: green;
+  /*background-color: green;*/
+  background: url('http://piq.codeus.net/static/media/userpics/piq_428180_400x400.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 100px;
   width: 100px;
   float: left;
@@ -141,7 +147,7 @@ p {
 }
 
 #finishLine{
-  background-color: blue;
+  background-color: red;
   height: 400px;
   width: 50px;
   float: right;
