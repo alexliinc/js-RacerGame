@@ -1,0 +1,88 @@
+/*Project Name: Racer Game
+Author: Alex Li
+Developer @GA in DENVER */
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+/*HEADER and NAV*/
+header {
+  background-color: #F15B31;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+
+nav{
+  background-color: #0E0B16;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #E7DFDD;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #0D2C40;
+    font-size: 45px
+    margin: 0px;
+}
+/*END HEADER*/
+
+/*INSTRUCTIONS*/
+h2{
+  font-family: "Raleway";
+  color:#0D2C40;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+}
+p {
+  font-family: "Droid Serif", serif;
+}
+/*END OF INSTRUCTIONS*/
+
+/*CREATE TWO PLAYERS*/
+#player1{
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+
+  float: left;
+  position:relative;
+}
+
+#player2{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+
+  float: left;
+  position:relative;
+}
+
+#finishLine{
+  background-color: black;
+  height: 400px;
+  width: 50px;
+
+  float: right;
+}
+
+/*CHANGING STYLE */
+@media (max-width: 600px) {
+  h1 {
+    color: red;
+  }
+}
