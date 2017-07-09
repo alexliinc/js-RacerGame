@@ -53,30 +53,30 @@ p {
 }
 /*END OF INSTRUCTIONS*/
 
-/*CREATE TWO PLAYERS*/
+/*CREATE TWO PLAYERS && FINISH LINE*/
 #player1{
   background-color: yellow;
   height: 100px;
   width: 100px;
-
   float: left;
   position:relative;
+  margin-top: 50px
 }
 
 #player2{
   background-color: green;
   height: 100px;
   width: 100px;
-
   float: left;
+  clear: left;
   position:relative;
+  margin-top: 50px;
 }
 
 #finishLine{
-  background-color: black;
+  background-color: blue;
   height: 400px;
   width: 50px;
-
   float: right;
 }
 
